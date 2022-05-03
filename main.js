@@ -19,7 +19,7 @@ async function main(){
         let disclosureDate = data[i].disclosure_date;
         let link = data[i].ptr_link;
         document.body.innerHTML =
-            html += `<div class="card-group flex-row my-5 col-4">
+            html += `<div class="card-group flex-row my-5 col-4 center">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-header back">${i+1}. ${member}</h5>
