@@ -90,3 +90,7 @@ a:nth-child(7) {
     height: 200px;
     border: 2px solid black;
 }
+
+.is-hidden {
+    display: none;
+}
